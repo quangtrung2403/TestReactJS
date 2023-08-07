@@ -1,0 +1,17 @@
+.page-loading {
+	position: absolute;
+	background-color: #da2a1c;
+	height: 4px;
+	z-index: 10;
+	animation: nextPage 1s forwards 1;
+}
+
+@keyframes nextPage {
+	0% {
+		width: 0%;
+	}
+
+	100% {
+		width: 100%;
+	}
+}

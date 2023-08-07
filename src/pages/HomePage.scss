@@ -1,0 +1,73 @@
+.home-content {
+	margin-top: 100px;
+	position: relative;
+}
+
+.novalidate {
+	background-image: url('https://gtvtqs.samcom.com.vn/static/img/login-background-2.e61ea81b.png');
+	background-size: 100% auto;
+	background-repeat: no-repeat;
+	background-position: bottom;
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+	height: 89vh;
+	flex-grow: 1;
+
+	.avatar-homepage {
+		width: 50%;
+		max-width: 416px;
+
+		.homepage-image {
+			width: 100%;
+			color: rgba(0, 0, 0, .87);
+			position: relative;
+			overflow: hidden;
+			-webkit-box-flex: 1;
+			max-width: 100%;
+			display: flex;
+			left: -13%;
+			z-index: 0;
+			transform: translateY(-20%);
+
+			.image__rizer {
+				padding-bottom: 96.3892%;
+				transition: padding-bottom .2s cubic-bezier(.25, .8, .5, 1);
+				-webkit-box-flex: 1;
+				flex: 1 0 0px;
+			}
+
+			.map-image {
+				background-image: url('https://gtvtqs.samcom.com.vn/static/img/login-image-3.png');
+				background-position: center center;
+				background-size: cover;
+				background-repeat: no-repeat;
+				z-index: -1;
+				position: absolute;
+				top: 0;
+				left: 0;
+				width: 100%;
+				height: 100%;
+			}
+
+			.content-image {
+				width: 1634px;
+				flex: 1 0 0px;
+				max-width: 100%;
+				margin-left: -100%;
+			}
+		}
+	}
+}
+
+.dialog-text {
+	position: absolute;
+	z-index: 10;
+	bottom: 76px;
+	transform: translate(-50%, -50%);
+	left: 46%;
+	font-weight: bold;
+	font-size: 14px;
+	line-height: 1.25rem;
+	letter-spacing: .0333333333em;
+}
